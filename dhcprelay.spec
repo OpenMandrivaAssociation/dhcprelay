@@ -9,6 +9,7 @@ Source0:	http://www.strongsec.com/freeswan/dhcprelay/dhcprelay-%{version}.tar.bz
 BuildRequires:	gmp-devel
 Requires(preun):rpm-helper
 Requires(post):	rpm-helper	
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 This DHCP-Relay forwards any DHCP packet out of a list of given ipsec devices
