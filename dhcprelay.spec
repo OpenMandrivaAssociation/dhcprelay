@@ -1,7 +1,7 @@
 Summary:	A dhcp relay to implement dhcp over ipsec
 Name:		dhcprelay
 Version:	0.3.2b
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	GPL
 Group:		System/Servers
 URL:		http://www.strongsec.com/freeswan/dhcprelay/
