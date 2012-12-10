@@ -50,3 +50,38 @@ rm -rf %{buildroot}
 %{_sbindir}/dhcprelay
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.3.2b-5mdv2011.0
++ Revision: 617582
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0.3.2b-4mdv2010.0
++ Revision: 427963
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 0.3.2b-3mdv2009.0
++ Revision: 244090
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.3.2b-1mdv2008.1
++ Revision: 136362
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Dec 12 2006 Oden Eriksson <oeriksson@mandriva.com> 0.3.2b-1mdv2007.0
++ Revision: 95897
+- Import dhcprelay
+
+* Tue Dec 12 2006 Oden Eriksson <oeriksson@mandriva.com> 0.3.2b-1mdv2007.1
+- 0.3.2b
+- fix deps
+- use the %%mkrel macro
+
+* Wed Oct 27 2004 Florin <florin@mandrakesoft.com> 0.3.1-1mdk
+- first Mandrake release
+
