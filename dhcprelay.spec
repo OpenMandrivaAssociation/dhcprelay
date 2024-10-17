@@ -4,7 +4,7 @@ Version:	0.3.2b
 Release:	6
 License:	GPL
 Group:		System/Servers
-URL:		http://www.strongsec.com/freeswan/dhcprelay/
+URL:		https://www.strongsec.com/freeswan/dhcprelay/
 Source0:	http://www.strongsec.com/freeswan/dhcprelay/dhcprelay-%{version}.tar.gz
 BuildRequires:	gmp-devel
 Requires(preun):rpm-helper
